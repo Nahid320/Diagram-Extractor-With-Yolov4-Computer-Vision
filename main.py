@@ -2,9 +2,7 @@ import glob
 import os
 import detector as det
 
-image_files = glob.glob("Testing/*png") \
-+ glob.glob("Testing/*jpg") \
-+ glob.glob("Testing/*jpeg")
+image_files = glob.glob("./New folder/*.png")
 
 print("Image Files:", image_files)
 
